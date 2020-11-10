@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+/* bagian 1 */
+
+.bagian1 {
+    background: url(./asset/latar.png);
+    width: 100%;
+    height: 804px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container1 {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1200px;
+    z-index: 2;
+}
+
+/* navigasi atas */
+
+nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+}
+
+nav .logo {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 170px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 20px;
+    display: inline;
+}
+
+nav li:nth-child(4) {
+    margin-right: 0px;
+}
+
+/* navigasi atas */
+
+/* zindex */
+
+.zindex {
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: #060826;
+    opacity: 0.8;
+    width: 100%;
+    height: 804px;
+    z-index: 1;
+}
+
+.zgambar {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background:url(./asset/human.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    width: 100%;
+    height: 804px;
+}
+
+/* akhir zindex */
+
+/* nav bawah kiri */
+
+hr {
+    margin-right: 10px;
+    justify-content: center;
+    width: 20px;
+    margin-top: 10px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.isi {
+    display: flex;
+    margin: 160px auto;
+}
+
+.isi .navkiri {
+    width: 60%;
+}
+
+.isi .navkiri .about ul{
+    display: flex;
+}
+
+.isi .navkiri .about a{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.isi .navkiri .navver ul>li {
+    margin: 40px 0px 40px 0px;
+}
+
+.isi .navkiri .navver ul>li a{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+/* akhir nav bawah kiri */
+
+/* nav kanan bawah */
+
+.isi .navkanan {
+    margin: auto;
+    display: flex;
+    color: white;
+    width: 40%;
+    z-index: 20;
+    justify-content: center;
+}
+
+.isi .onpoin h1{
+    justify-content: center;
+    color: #A4D84F;
+}
+
+.isi .navkanan .onpoin h1{
+    font-size: 46px;
+}
+
+.isi .navkanan .onpoin p{
+    text-align: justify;
+    line-height: 30px;
+    font-weight: lighter;
+}
+
+/* akhir nav kanan bawah */
+
+/* akhir bagian 1 */
+
+
+/* bagian 2 */
+
+/* container */
+.container2 {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1200px;
+    z-index: 2;
+}
+
+.bagian2 .container2 {
+    padding: 60px 0;
+}
+
+/* akhir container */
+
+.bagian2 {
+    position: static;
+    z-index: 0;
+    width: 100%;
+    height: 632px;
+}
+
+/* judul bagian 2 */
+
+.bagian2 .judul {
+    margin-bottom: 40px;
+}
+
+.bagian2 .judul h3 {
+    font-size: 36px;
+}
+
+.bagian2 .judul h1 {
+    font-size: 36px;
+    color: #A4D84F;
+}
+
+/* akhir judul bagian 2 */
+
+/* isi profile */
+
+.bagian2 .isiprofile {
+    display: flex;
+}
+
+/* gambar */
+
+.bagian2 .isiprofile .gambarprofile {
+    width: 60%;
+}
+
+.bagian2 .isiprofile .gambarprofile img{
+    width: 491.44px;
+}
+
+/* isi kanan */
+
+.bagian2 .isikanan{
+    width: 40%;
+}
+
+.bagian2 .isikanan h1 {
+    font-size: 36px;
+    color: #A4D84F;
+}
+
+.bagian2 .isikanan p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #9a9a9a;
+    margin: 20px 0;
+}
+
+/* isi kanan tombol */
+
+.bagian2 .isikanan .btn {
+    display: flex;
+}
+
+.bagian2 .isikanan .btn .btnsatu {
+    height: 45px;
+    padding: 0 20px;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 100px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bagian2 .isikanan .btn .btndua {
+    height: 45px;
+    padding: 0 20px;
+    border: 2px solid black;
+    background: transparent;
+    border-radius: 100px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.bagian2 .btn button:nth-child(1){
+    margin-right: 20px;
+}
+
+.bagian2 .isikanan .btntiga {
+    height: 40px;
+    background-color: #A9DA57;
+    border: none;
+    padding: 0 30px;
+    color: white;
+    margin: 30px 0;
+}
+
+/* akhir bagian 2 */
+
+/* bagian 3 */
+
+/* container 3 */
+.container3 {
+    position: relative;
+    margin: 0 auto;
+    width: 70%;
+    max-width: 1200px;
+    z-index: 2;
+}
+
+.bagian3 .container3 {
+    display: flex;
+    padding: 100px 0;
+}
+
+.bagian3 {
+    width: 100%;
+    height: 687px;
+    background-color: #1F211D;
+}
+
+/* contact */
+.bagian3 .contact {
+    width: 50%;
+}
+
+.bagian3 .contact h1{
+    color:  #A9DA57;
+    font-size: 45px;
+}
+
+.bagian3 .contact form {
+    width: 95%;
+}
+
+.bagian3 .row {
+    margin: 20px 0;
+}
+
+.bagian3 .row input, textarea{
+    width: 100%;
+    border-radius: 3px;
+    padding: 1em;
+    font-style: italic;
+    border: 1px solid black;
+}
+
+.bagian3 .contact .submit {
+    background-color:  #A9DA57;
+    height: 45px;
+    width: 162px;
+    border: none;
+    color: #152647;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* about fooer */
+.bagian3 .bagfooter {
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+}
+
+.bagian3 .bagfooter .imgfooter {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: flex-end;
+}
+
+.bagian3 .bagfooter .imgfooter img{
+    width: 60%;
+}
+
+.bagian3 .bagfooter .almfooter {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bagian3 .bagfooter .almfooter img{
+    margin-left: 20px;
+    width: 25px;
+    height: 20px;
+}
+
+.bagian3 .bagfooter .almfooter p {
+    color: white;
+    text-align: right;
+    font-size: 20px;
+}
+
+.bagian3 .bagfooter .cpfooter {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bagian3 .bagfooter .cpfooter img{
+    margin-left: 20px;
+    width: 25px;
+    height: 20px;
+}
+
+.bagian3 .bagfooter .cpfooter p {
+    font-size: 20px;
+    color: white;
+}
+
+.bagian3 .bagfooter .copyright {
+    margin-top: 130px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: white;
+}
+
+/* akhir bagian 3 */
